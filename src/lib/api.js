@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:5050/api';
+const BASE_URL = 'https://backend-production-7230.up.railway.app/api';
 
 async function fetchJson(url, options = {}) {
   const res = await fetch(url, options);
